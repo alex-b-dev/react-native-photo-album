@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Image } from "react-native";
 
 import clsx from "../../utils/clsx";
 import round from "../../utils/round";
@@ -107,7 +108,7 @@ export default function PhotoRenderer<T extends Photo = Photo>(props: PhotoRende
     const { src, alt, srcSet, sizes, style: unwrappedStyle, ...rest } = imageProps;
 
     return (
-      <img
+      <Image
         alt={alt}
         {...(srcSet ? { srcSet, sizes } : null)}
         src={src}

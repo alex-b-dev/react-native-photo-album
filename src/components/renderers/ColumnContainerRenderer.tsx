@@ -1,4 +1,5 @@
 import * as React from "react";
+import { View } from "react-native";
 
 import clsx from "../../utils/clsx";
 import round from "../../utils/round";
@@ -8,7 +9,7 @@ function defaultRenderColumnContainer<T extends Photo = Photo>({
   columnContainerProps,
   children,
 }: RenderColumnContainerProps<T>) {
-  return <div {...columnContainerProps}>{children}</div>;
+  return <View {...columnContainerProps}>{children}</View>;
 }
 
 function cssColumnWidth<T extends Photo = Photo>(props: ColumnContainerRendererProps<T>) {

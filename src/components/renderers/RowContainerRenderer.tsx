@@ -1,4 +1,5 @@
 import * as React from "react";
+import { View } from "react-native";
 
 import clsx from "../../utils/clsx";
 import { Optional, Photo, RenderRowContainer, RenderRowContainerProps } from "../../types";
@@ -7,7 +8,7 @@ function defaultRenderRowContainer<T extends Photo = Photo>({
   rowContainerProps,
   children,
 }: RenderRowContainerProps<T>) {
-  return <div {...rowContainerProps}>{children}</div>;
+  return <View {...rowContainerProps}>{children}</View>;
 }
 
 export type RowContainerRendererProps<T extends Photo = Photo> = Optional<
