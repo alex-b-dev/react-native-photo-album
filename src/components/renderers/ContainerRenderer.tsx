@@ -1,13 +1,14 @@
 import * as React from "react";
+import { View } from "react-native";
 
 import clsx from "../../utils/clsx";
 import { Optional, RenderContainer, RenderContainerProps } from "../../types";
 
 function defaultRenderContainer({ containerProps, children, containerRef }: RenderContainerProps) {
   return (
-    <div ref={containerRef} {...containerProps}>
+    <View ref={containerRef} {...containerProps}>
       {children}
-    </div>
+    </View>
   );
 }
 
