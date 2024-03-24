@@ -1,8 +1,8 @@
 {
-  "name": "react-photo-album",
+  "name": "react-native-photo-album",
   "version": "0.0.0-semantic-release",
-  "description": "Responsive photo gallery component for React",
-  "author": "Igor Danchenko",
+  "description": "Responsive photo gallery component for React Native",
+  "author": "Alex (forked Igor Danchenko's package)",
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -21,13 +21,12 @@
     "dist"
   ],
   "sideEffects": false,
-  "homepage": "https://react-photo-album.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/igordanchenko/react-photo-album.git"
+    "url": "https://github.com/alex-b-dev/react-native-photo-album.git"
   },
   "bugs": {
-    "url": "https://github.com/igordanchenko/react-photo-album/issues"
+    "url": "https://github.com/alex-b-dev/react-native-photo-album/issues"
   },
   "engines": {
     "node": ">=12"
@@ -91,7 +90,7 @@
     "vitest": "^1.2.2"
   },
   "keywords": [
-    "react",
+    "react native",
     "image",
     "photo",
     "album",
@@ -102,11 +101,11 @@
     "image gallery",
     "photo layout",
     "image layout",
-    "react gallery",
-    "react photo album",
-    "react photo gallery",
-    "react image gallery",
-    "react-photo-album",
-    "react-photo-gallery"
+    "react native gallery",
+    "react native photo album",
+    "react native photo gallery",
+    "react native image gallery",
+    "react-native-photo-album",
+    "react-native-photo-gallery"
   ]
 }
